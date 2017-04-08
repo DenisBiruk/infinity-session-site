@@ -30,6 +30,20 @@ footer {
 
 .footer-icons {
   line-height: 59px;
+
+  i.fa-circle {
+    transition: color 0.2s ease;
+  }
+
+  a {
+    span {
+      &:hover {
+        i.fa-circle {
+          color: $light-accent-color;
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 767px) {
