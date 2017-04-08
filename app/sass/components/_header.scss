@@ -1,4 +1,4 @@
-header {
+.main-header {
   background-image: url('../../img/header-background.jpg');
   background-size: cover;
   background-position: center center;
@@ -97,7 +97,7 @@ header {
 }
 
 @media (orientation: portrait),(orientation: landscape) and (max-width: 768px) {
-  header {
+  .main-header {
     height: 100vh;
   }
 }
