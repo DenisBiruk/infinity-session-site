@@ -1,5 +1,5 @@
 {
-  "name": "gderm-site",
+  "name": "infinite-session",
   "version": "1.0.0",
   "scripts": {
     "watch": "gulp watch",
